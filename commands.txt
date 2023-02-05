@@ -1,0 +1,76 @@
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT
+$ echo "# Module 1 lesson" >> README.md
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT
+$ git init
+Initialized empty Git repository in C:/Course/Module1/Lesson_GIT/.git/
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (master)
+$ git commit -m "adding README"
+[master (root-commit) 2b82ccb] adding README
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (master)
+$ git branch -M main
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git remote add origin https://github.com/shyamli0108/module-1.git
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 238 bytes | 238.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shyamli0108/module-1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        summary.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git add summary.txt
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git commit -m "adding summary"
+[main e2eaec2] adding summary
+ 1 file changed, 12 insertions(+)
+ create mode 100644 summary.txt
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 586 bytes | 586.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shyamli0108/module-1.git
+   2b82ccb..e2eaec2  main -> main
+branch 'main' set up to track 'origin/main'.
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git push
+Everything up-to-date
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$ git pull
+Already up to date.
+
+12034@shyamli MINGW64 /c/Course/Module1/Lesson_GIT (main)
+$
