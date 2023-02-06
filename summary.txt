@@ -1,12 +1,11 @@
-1.Open Github.com ,in Github page go to the Your respository (in the right side of the page) ,open it and cleck on NEW .the Create a new repository and in Repository textbox write
-your name with .github.io "shyamli.github.io"  .
-
-2. In vscode write code for header and image , my code is for Header and image
+1.Open Github.com
+2. In Github page go to the your respository (in the right side of the page), open it and clck on NEW.
+3. Then create a new repository and in Repository textbox write your name with .github.io, for example "shyamli.github.io".
+4. In vscode, write code for a html with header and image, for example refer my code below 
 
 <html>
-<h1>Shyamli's Portfolio</h1>
-    <img src="image.jpg">
+	<h1>Shyamli's Portfolio</h1>
+    <img src="image.jpg"/>
 </html> 
 
-
-3. Then push the html page and image.jpg in repository by clicking uploadoing an existing file and there just drage and drop the code. 
+5. Then push the html page and image.jpg in repository by clicking on "Upload an existing file" and there just drage and drop the files. 
